@@ -1,6 +1,6 @@
 package es.upm.miw.pd.state.connection;
 
-public class Preparado extends Estado{
+public class Preparado extends EstadoAbstract{
 
 	@Override
 	public void abrir(Conexion conexion) {

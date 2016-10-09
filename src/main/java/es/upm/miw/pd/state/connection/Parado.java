@@ -1,6 +1,6 @@
 package es.upm.miw.pd.state.connection;
 
-public class Parado extends Estado{
+public class Parado extends EstadoAbstract{
 
 	@Override
 	public void iniciar(Conexion conexion) {
