@@ -1,6 +1,6 @@
 package es.upm.miw.pd.state.connection;
 
-public class Cerrado extends EstadoAbstract{
+public class Cerrado implements IEstado{
 	
 	@Override
 	public void cerrar(Conexion conexion){

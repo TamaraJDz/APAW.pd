@@ -1,6 +1,6 @@
 package es.upm.miw.pd.state.connection;
 
-public class Esperando extends EstadoAbstract{
+public class Esperando implements IEstado{
 
 	
 	@Override

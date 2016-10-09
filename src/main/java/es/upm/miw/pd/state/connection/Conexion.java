@@ -1,7 +1,7 @@
 package es.upm.miw.pd.state.connection;
 
 public class Conexion {
-	private EstadoAbstract estado;
+	private IEstado estado;
 
 	private Link link;
 
@@ -11,7 +11,7 @@ public class Conexion {
 		this.estado = new Cerrado();
 	}
 
-	protected void setEstado(EstadoAbstract estado){
+	protected void setEstado(IEstado estado){
 		this.estado = estado;
 	}
 	
