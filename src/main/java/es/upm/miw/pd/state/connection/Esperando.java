@@ -44,5 +44,10 @@ public class Esperando extends EstadoAbstract{
 		
 	}
 
+	@Override
+	public Estado getEstado() {
+		return Estado.ESPERANDO;
+	}
+
 
 }

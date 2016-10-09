@@ -16,4 +16,5 @@ public abstract class EstadoAbstract {
 
 	public abstract void recibir(Conexion conexion, int respuesta);
 
+	public abstract Estado getEstado();
 }

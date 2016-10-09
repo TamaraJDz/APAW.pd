@@ -38,6 +38,11 @@ public class Parado extends EstadoAbstract{
 		
 	}
 
+	@Override
+	public Estado getEstado() {
+		return Estado.PARADO;
+	}
+
 	
 
 }

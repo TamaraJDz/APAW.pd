@@ -29,7 +29,7 @@ public class Preparado extends EstadoAbstract{
 
 	@Override
 	public void parar(Conexion conexion) {
-		throw new UnsupportedOperationException("Accion no permitida... ");
+		conexion.setEstado(new Parado());
 		
 	}
 
@@ -39,5 +39,12 @@ public class Preparado extends EstadoAbstract{
 		throw new UnsupportedOperationException("Accion no permitida... ");
 		
 	}
+
+	@Override
+	public Estado getEstado() {
+		return Estado.PREPARADO;
+	}
+	
+	
 
 }

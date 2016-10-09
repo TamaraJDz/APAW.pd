@@ -35,4 +35,9 @@ public class Cerrado extends EstadoAbstract{
 		throw new UnsupportedOperationException("Accion no permitida... ");
 		
 	}
+
+	@Override
+	public Estado getEstado() {
+		return Estado.CERRADO;
+	}
 }
