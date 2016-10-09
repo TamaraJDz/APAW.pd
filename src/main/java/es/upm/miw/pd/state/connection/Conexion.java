@@ -43,8 +43,9 @@ public class Conexion {
 		return link;
 	}
 
-	public EstadoAbstract getEstado() {
-		return this.estado;
+	public Estado getEstado() {
+		return estado.getEstado();
 	}
+
 
 }

@@ -2,7 +2,6 @@ package es.upm.miw.pd.state.connection;
 
 public abstract class EstadoAbstract {
 	
-	enum Estado {CERRADO, PARADO, PREPARADO, ESPERANDO};
 	
 	public abstract void abrir(Conexion conexion);
 	
