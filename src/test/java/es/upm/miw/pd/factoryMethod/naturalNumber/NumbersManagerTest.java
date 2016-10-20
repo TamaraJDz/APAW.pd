@@ -13,7 +13,7 @@ public class NumbersManagerTest {
 		
 		
 		@Before
-		public void ini(){
+		public void setUp(){
 			numbersManager = new NumbersManager();
 		}
 		
