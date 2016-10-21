@@ -20,11 +20,9 @@ public class Caracter extends Componente {
 
 	@Override
 	public void add(Componente c) {
-		//throw new UnsupportedOperationException("Accion no permitida");
 	}
 
 	@Override
 	public void remove(Componente c) {
-		//throw new UnsupportedOperationException("Accion no permitida");
 	}
 }

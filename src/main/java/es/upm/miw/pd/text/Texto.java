@@ -4,10 +4,10 @@ public class Texto extends TextComposite{
 
 	@Override
 	public void add(Componente c) {
-		if(!c.textComposite())
-			componentes.add(c);
+		if(c.textComposite())
+			super.add(c);
 		else
-			throw new UnsupportedOperationException("Accion no permitida");
+			throw new UnsupportedOperationException();
 		
 	}
 
@@ -19,7 +19,7 @@ public class Texto extends TextComposite{
 	@Override
 	public void remove(Componente c) {
 		if(!c.textComposite())
-			componentes.remove(c);
+			super.remove(c);
 		
 	}
 

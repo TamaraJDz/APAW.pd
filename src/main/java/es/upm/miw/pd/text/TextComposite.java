@@ -13,10 +13,6 @@ public abstract class TextComposite extends Componente{
 		componentes = new ArrayList<Componente>();
 	}
 	
-	public TextComposite(boolean textComposite) {
-		super(textComposite);
-	}
-	
 	public void add(Componente componente){
 		componentes.add(componente);
 	}

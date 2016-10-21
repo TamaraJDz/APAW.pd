@@ -7,8 +7,6 @@ import static org.junit.Assert.fail;
 import org.junit.Before;
 import org.junit.Test;
 
-import es.upm.miw.pd.text.*;
-
 
 public class TextoTest {
     private Componente H, o, l, a, pf, txt;
